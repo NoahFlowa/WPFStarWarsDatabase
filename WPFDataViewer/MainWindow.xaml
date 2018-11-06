@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPFDataViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFDataViewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="360.758" Width="525">
+    <Window.Background>
+        <ImageBrush ImageSource="Images\star.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Height="180" Margin="10,44,0,0" VerticalAlignment="Top" Width="497" Background="Gray"/>
+        <Label Content="Star Wars Database" HorizontalAlignment="Center" Margin="167,5,170,275" VerticalAlignment="Center" Width="180" FontSize="18" FontWeight="Bold" Height="39" Foreground="Gold"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="639,-11,-222,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="detail_btn" Content="Detail Info" HorizontalAlignment="Left" Margin="272,229,0,0" VerticalAlignment="Top" Width="75" Background="Transparent" Foreground="Gold"/>
+        <Button x:Name="filter_btn" Content="Filter" HorizontalAlignment="Left" Margin="352,229,0,0" VerticalAlignment="Top" Width="75" Click="close_btn_Click" Background="Transparent" Foreground="Gold"/>
+        <Button x:Name="sort_btn" Content="Sort" HorizontalAlignment="Left" Margin="432,229,0,0" VerticalAlignment="Top" Width="75" Click="close_btn_Click" Background="Transparent" Foreground="Gold"/>
+        <Button x:Name="close_btn" Content="Close" HorizontalAlignment="Left" Margin="432,299,0,0" VerticalAlignment="Top" Width="75" Click="close_btn_Click" Background="Transparent" Foreground="Gold"/>
+        <Button x:Name="help_btn" Content="Help" HorizontalAlignment="Left" Margin="352,299,0,0" VerticalAlignment="Top" Width="75" Click="help_btn_Click" Background="Transparent" Foreground="Gold"/>
+        <TextBox x:Name="searchBox_txtBox" HorizontalAlignment="Left" Height="30" Margin="10,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Background="Gray" Foreground="Gold" FontSize="18"/>
+        <Label x:Name="search_lbl" Content="Search for a term below" HorizontalAlignment="Left" Margin="10,229,0,0" VerticalAlignment="Top" Height="31" Width="246" Foreground="Gold" FontSize="16" Background="Gray" FontWeight="Bold"/>
+        <Button x:Name="clear_btn" Content="Clear" HorizontalAlignment="Left" Margin="272,265,0,0" VerticalAlignment="Top" Width="75" Background="Transparent" Foreground="Gold" Click="clear_btn_Click" Height="30"/>
+
+    </Grid>
+</Window>

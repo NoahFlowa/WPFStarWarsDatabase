@@ -1,0 +1,17 @@
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\bin\Debug\WPFDataViewer.exe.config
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\bin\Debug\WPFDataViewer.exe
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\bin\Debug\WPFDataViewer.pdb
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.csprojResolveAssemblyReference.cache
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\MainWindow.g.cs
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\App.g.cs
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer_MarkupCompile.cache
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer_MarkupCompile.lref
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\MainWindow.baml
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.g.resources
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.Properties.Resources.resources
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.csproj.GenerateResource.Cache
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.csproj.CoreCompileInputs.cache
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.exe
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\WPFDataViewer.pdb
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\HelpWindow.g.cs
+C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\HelpWindow.baml
