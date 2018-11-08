@@ -10,7 +10,13 @@
         <ImageBrush ImageSource="Images\star.jpg"></ImageBrush>
     </Window.Background>
     <Grid>
-        <DataGrid HorizontalAlignment="Left" Height="180" Margin="10,44,0,0" VerticalAlignment="Top" Width="497" Background="Gray"/>
+        <DataGrid ItemsSource="{Binding Source=PersonList}" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="180" Margin="10,44,0,0" VerticalAlignment="Top" Width="497" Background="Gray" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}"/>
+            </DataGrid.Columns>
+        </DataGrid>
         <Label Content="Star Wars Database" HorizontalAlignment="Center" Margin="167,5,170,275" VerticalAlignment="Center" Width="180" FontSize="18" FontWeight="Bold" Height="39" Foreground="Gold"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="639,-11,-222,0" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="detail_btn" Content="Detail Info" HorizontalAlignment="Left" Margin="272,229,0,0" VerticalAlignment="Top" Width="75" Background="Transparent" Foreground="Gold"/>

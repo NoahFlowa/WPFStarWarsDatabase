@@ -40,5 +40,10 @@ namespace WPFDataViewer
         {
             searchBox_txtBox.Text = "";
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

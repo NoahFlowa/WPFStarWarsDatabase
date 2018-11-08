@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\obj\Debug\
+C:\Users\osterh3\Desktop\WPFStarWarsDatabase\WPFDataViewer\obj\Debug\
 WPFDataViewer
 none
 false
 DEBUG;TRACE
-C:\Users\osterh3\Desktop\WPFDataViewer\WPFDataViewer\App.xaml
-2-1647343458
+C:\Users\osterh3\Desktop\WPFStarWarsDatabase\WPFDataViewer\App.xaml
+3-95008138
 
-6-1360369005
-131569487696
-HelpWindow.xaml;MainWindow.xaml;
+111025993020
+73840020600
+DetailWindow.xaml;HelpWindow.xaml;MainWindow.xaml;
 
 False
 
